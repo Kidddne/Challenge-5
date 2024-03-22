@@ -71,18 +71,23 @@ button {
   margin-bottom: 204.32px;
 }
 .homePage-DercoImg-banner {
+  display: flex;
+  width: 100%;
   margin: 0 auto;
-  max-width: 100%;
 }
 .container-theToolThatFeelsLikeA {
   display: flex;
   margin: 0 auto;
   margin-bottom: 180px;
   gap: 44px;
+  justify-content: center;
 }
 .container-theToolThatFeelsLikeA .content {
   margin-top: 49.5px;
-  width: 538px;
+  width: 34%;
+}
+.container-theToolThatFeelsLikeA .img {
+  width: 64%;
 }
 .name {
   font-size: 50px;
@@ -218,7 +223,6 @@ button {
   position: absolute;
   top: 385px;
   left: 260px;
-  max-width: 118vh;
 }
 .container-doingEverythingYourselfIsDifficult .title {
   width: 545px;
@@ -240,6 +244,7 @@ button {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  margin-bottom: 197px;
 }
 .container-connectAllTheSocialNetworksYouLove .content {
   width: 538px;
@@ -426,6 +431,7 @@ button {
 }
 .container-lastestNewsAndArticles {
   max-width: 1400px;
+  display: block;
   margin: 0 auto;
   margin-bottom: 249px;
 }
@@ -567,6 +573,7 @@ button {
 }
 .tech-footer {
   max-width: 1401px;
+  display: block;
   margin: 0 auto;
   margin-bottom: 23px;
 }
@@ -701,6 +708,7 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
 }
 .container-banner .name {
   color: rgba(255, 255, 255, 1);
@@ -828,7 +836,7 @@ button {
   display: flex;
   align-items: center;
   gap: 31px;
-  max-width: 1366px;
+  width: 1272px;
   margin: 0 auto;
   margin-bottom: 174px;
 }
@@ -845,6 +853,7 @@ button {
   margin-top: 18px;
 }
 .container-comparePricingPackages {
+  display: block;
   margin: 0 auto;
   margin-bottom: 201px;
 }
@@ -861,7 +870,7 @@ button {
   border-radius: 30px;
 }
 .content-table th {
-  text-align: center;
+  padding: 50px 0px 79px 0px;
 }
 .content-table tbody td {
   padding: 38px 65px;
