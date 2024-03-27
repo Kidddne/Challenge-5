@@ -87,7 +87,7 @@ button {
   width: 34%;
 }
 .container-theToolThatFeelsLikeA .img {
-  width: 64%;
+  max-width: 976px;
 }
 .name {
   font-size: 50px;
@@ -254,6 +254,9 @@ button {
 }
 .container-connectAllTheSocialNetworksYouLove .description {
   margin-bottom: 31px;
+}
+.container-connectAllTheSocialNetworksYouLove .img {
+  max-width: 591px;
 }
 .container-ourWorkingProcess-HowWeWorkForOurCustomers {
   display: flex;
@@ -709,6 +712,7 @@ button {
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .container-banner .name {
   color: rgba(255, 255, 255, 1);
@@ -740,6 +744,7 @@ button {
   justify-content: center;
   gap: 29px;
   margin-bottom: 200px;
+  position: relative;
 }
 .container-useOption .tag {
   border: 1px solid rgba(220, 220, 220, 1);
@@ -750,6 +755,18 @@ button {
   border: 1px solid rgba(220, 220, 220, 1);
   border-radius: 20px;
   margin-bottom: 50px;
+}
+.picture {
+  position: relative;
+}
+.img-ellipse {
+  position: absolute;
+  top: 642px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
 }
 .container-useOption .typeAndDiscount {
   display: flex;
