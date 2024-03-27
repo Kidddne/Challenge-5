@@ -716,6 +716,8 @@ button {
 }
 .container-banner .name {
   color: rgba(255, 255, 255, 1);
+  width: 706px;
+  text-align: center;
 }
 .container-banner .description {
   margin-top: 19px;
@@ -745,6 +747,7 @@ button {
   gap: 29px;
   margin-bottom: 200px;
   position: relative;
+  z-index: 2;
 }
 .container-useOption .tag {
   border: 1px solid rgba(220, 220, 220, 1);
@@ -755,6 +758,7 @@ button {
   border: 1px solid rgba(220, 220, 220, 1);
   border-radius: 20px;
   margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .picture {
   position: relative;
@@ -766,7 +770,7 @@ button {
   left: 0;
   right: 0;
   margin: auto;
-  z-index: -1;
+  z-index: 1;
 }
 .container-useOption .typeAndDiscount {
   display: flex;
@@ -821,6 +825,7 @@ button {
   font-size: 18px;
   font-weight: 700;
   line-height: 24.55px;
+  background-color: rgba(255, 255, 255, 1);
 }
 .btn-big-purple {
   color: rgba(255, 255, 255, 1);
@@ -885,9 +890,13 @@ button {
   border: 1px solid rgba(211, 211, 211, 1);
   margin: 0 auto;
   border-radius: 30px;
+  border-collapse: separate;
 }
-.content-table th {
+.content-table thead th {
   padding: 50px 0px 79px 0px;
+}
+tbody tr {
+  border-bottom: 1px solid rgba(211, 211, 211, 1);
 }
 .content-table tbody td {
   padding: 38px 65px;
@@ -895,13 +904,15 @@ button {
   font-weight: 400;
   line-height: 25px;
   color: rgba(121, 121, 121, 1);
-  border-bottom: 1px solid rgba(211, 211, 211, 1);
+}
+.content-table .item {
+  border: none;
 }
 .content-table tfoot td {
   padding: 41px 536px 51px 536px;
   color: rgba(47, 47, 47, 1);
 }
-.container-comparePricingPackages .subheading {
+.content-table .subheading {
   font-size: 25px;
   font-weight: 700;
   line-height: 28px;
@@ -922,4 +933,9 @@ button {
   font-weight: 800;
   line-height: 44px;
   color: rgba(36, 35, 49, 1);
+}
+.features {
+  text-align: left;
+  padding-left: 65px;
+  margin-top: -18px;
 }
