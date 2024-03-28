@@ -90,6 +90,7 @@ button {
   background-image: url(images/homepage-decor-img1-banner.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  position: relative;
 }
 .container-homepage-banner .content {
   color: rgba(255, 255, 255, 1);
